@@ -98,12 +98,12 @@ class InvoiceCreationResponse
         return $this->responseData['ResponseObject']['IsDuplicateRequestReference'] ?? null;
     }
 
-    public function invoiceNumber(): ?bool
+    public function invoiceNumber(): ?string
     {
         return $this->responseData['ResponseObject']['InvoiceNumber'] ?? null;
     }
 
-    public function invoicePreviewUrl(): ?bool
+    public function invoicePreviewUrl(): ?string
     {
         return $this->responseData['ResponseObject']['InvoicePreviewUrl'] ?? null;
     }
